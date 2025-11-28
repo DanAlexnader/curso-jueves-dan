@@ -1,0 +1,55 @@
+body {
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    color: #fff;
+    text-align: center; /* Centra todo el texto */
+}
+
+.card {
+    width: 95%;
+    max-width: 900px;
+    background: #111;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #0a3333;
+    box-shadow: 0 0 25px rgba(0,255,255,0.2);
+}
+
+h1 {
+    color: #00eaff;
+    margin-bottom: 10px;
+    font-size: 2.8rem; /* Más grande */
+}
+
+h2 {
+    color: #89f7ff;
+    margin-bottom: 25px;
+    font-size: 1.6rem; /* Más grande */
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.2rem; /* Más grande */
+}
+
+.botones button {
+    background: #00eaff;
+    border: none;
+    padding: 12px 18px;
+    color: #000;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1rem; /* Más grande */
+}
+
+.footer {
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 1rem;
+}
